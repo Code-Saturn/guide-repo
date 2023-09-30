@@ -1,4 +1,4 @@
-# What us this?
+# What is this?
 
 This guide shows you how to uninstall system apps and ultimately debloat android on non root devices.
 
