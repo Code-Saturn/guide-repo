@@ -10,7 +10,7 @@ This guide shows you how to uninstall system apps and ultimately debloat android
 
 ## Primary method.
 
-Using ashell
+Using aShell.
 
 ### Steps -
  1. Install [shizuku](https://github.com/RikkaApps/Shizuku/releases) and [aShell](https://f-droid.org/en/packages/in.sunilpaulmathew.ashell/).
@@ -24,7 +24,7 @@ Using ashell
 
 ## Alternate method.
 
-By using [Package Manager](https://github.com/SmartPack/PackageManager).
+By using an app called "Package Manager"
 
 ### Steps -
  1. Install [shizuku](https://github.com/RikkaApps/Shizuku/releases) and [Package Manager](https://f-droid.org/packages/com.smartpack.packagemanager/).
