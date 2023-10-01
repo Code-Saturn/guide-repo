@@ -1,6 +1,6 @@
 # What is this?
 
->Thanks[UAD](https://github.com/0x192/universal-android-debloater/), [Shizuku](https://github.com/RikkaApps/Shizuku), [aShell](https://gitlab.com/sunilpaulmathew/ashell) and [Package Manager](https://github.com/SmartPack/PackageManager).
+>Thanks to [UAD](https://github.com/0x192/universal-android-debloater/), [Shizuku](https://github.com/RikkaApps/Shizuku), [aShell](https://gitlab.com/sunilpaulmathew/ashell) and [Package Manager](https://github.com/SmartPack/PackageManager).
 
 This guide shows you how to uninstall system apps and ultimately debloat android on non root devices.
 
