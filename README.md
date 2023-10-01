@@ -1,6 +1,12 @@
 # What is this?
 
+>Thanks[UAD](https://github.com/0x192/universal-android-debloater/), [Shizuku](https://github.com/RikkaApps/Shizuku), [aShell](https://gitlab.com/sunilpaulmathew/ashell) and [Package Manager](https://github.com/SmartPack/PackageManager).
+
 This guide shows you how to uninstall system apps and ultimately debloat android on non root devices.
+
+>[!WARNING]
+>This is safe, but only in the sense that you can't brick your phone. You shouldn't encounter bootloop but... **it can't be guarantee it 100%**.The UAD dev and contributors tried to list all the packages they came across. Even those you should not delete. Those are classified in the unsafe list. This way, you know the purpose of each package.
+
 
 ## Primary method.
 
@@ -49,12 +55,4 @@ If `<entry>` is -
 2. **Advanced** -- Breaks obscure or minor parts of functionality, or apps that aren't easily enabled/installed through Settings/Google Play. This category is also used for apps that are useful (default keyboard/gallery/launcher/music app.) but that can easily be replaced by a better alternative.
 3. **Expert** -- Breaks widespread and/or important functionality, but nothing important to the basic operation of the operating system. Removing an Expert package should not bootloop the device (unless mentioned in the description) but we can't guarantee it 100%.
 4. **Unsafe** -- Can break vital parts of the operating system. Removing an Unsafe package have an extremely high risk of bootlooping your device.
-
-# [!WARNING]
- 
-(this is from the UAD guide incase someone misses it.)
-
- >Yes, but only in the sense that you can't brick your phone. You shouldn't encounter bootloop but... I can't guarantee it 100%.
-
- >I try to list all the packages I came across. Even those you should not delete. Those are classified in the unsafe list. This way, you know the purpose of each package.
 
