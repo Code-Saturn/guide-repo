@@ -20,11 +20,11 @@ Using aShell.
 
 ### Note.
 
- Since aShell is adb you can just input your commands there on the top bar
+ Since aShell is adb you can just input your commands there on the top bar.
 
 ## Alternate method.
 
-By using an app called "Package Manager"
+By using an app called "Package Manager".
 
 ### Steps -
  1. Install [shizuku](https://github.com/RikkaApps/Shizuku/releases) and [Package Manager](https://f-droid.org/packages/com.smartpack.packagemanager/).
