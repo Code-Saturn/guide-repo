@@ -50,7 +50,10 @@ If `<entry>` is -
 3. **Expert** -- Breaks widespread and/or important functionality, but nothing important to the basic operation of the operating system. Removing an Expert package should not bootloop the device (unless mentioned in the description) but we can't guarantee it 100%.
 4. **Unsafe** -- Can break vital parts of the operating system. Removing an Unsafe package have an extremely high risk of bootlooping your device.
 
-# Important (this is from the UAD guide incase someone misses it.)
+# [!WARNING]
+ 
+(this is from the UAD guide incase someone misses it.)
+
  >Yes, but only in the sense that you can't brick your phone. You shouldn't encounter bootloop but... I can't guarantee it 100%.
 
  >I try to list all the packages I came across. Even those you should not delete. Those are classified in the unsafe list. This way, you know the purpose of each package.
