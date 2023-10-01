@@ -5,7 +5,7 @@
 This guide shows you how to uninstall system apps and ultimately debloat android on non root devices.
 
 >[!WARNING]
->This is safe, but only in the sense that you can't brick your phone. You shouldn't encounter bootloop but... **it can't be guarantee it 100%**.The UAD dev and contributors tried to list all the packages they came across. Even those you should not delete. Those are classified in the unsafe list. This way, you know the purpose of each package.
+>This is safe, but only in the sense that you can't brick your phone. You shouldn't encounter bootloop but... **it can't be guaranteed 100%**.The UAD dev and contributors tried to list all the packages they came across. Even those you should not delete. Those are classified in the unsafe list. This way, you know the purpose of each package.
 
 
 ## Primary method.
