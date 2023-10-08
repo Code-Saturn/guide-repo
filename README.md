@@ -21,9 +21,8 @@ Using aShell.
  3. Open aShell once Shizuku is configured.
  4. Use [this](https://github.com/0x192/universal-android-debloater/wiki/FAQ#what-are-the-adb-commands-used-by-uad) from the [UAD wiki](https://github.com/0x192/universal-android-debloater/wiki) as a guide for the adb commands.
 
-### Note.
-
- Since aShell is adb you can just input your commands there on the top bar.
+>[!NOTE]
+>Since aShell is adb shell you can just input your commands there on the top bar.
 
 ## Alternate method.
 
