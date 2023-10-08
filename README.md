@@ -63,5 +63,5 @@ If `<entry>` is -
 
 By using [App Manager](https://github.com/MuntashirAkon/AppManager)
 
->[NOTE]
+>[!NOTE]
 >Shizuku, nor the UAD wiki is needed for this method.
