@@ -58,7 +58,7 @@ If `<entry>` is -
 3. **Expert** -- Breaks widespread and/or important functionality, but nothing important to the basic operation of the operating system. Removing an Expert package should not bootloop the device (unless mentioned in the description) but we can't guarantee it 100%.
 4. **Unsafe** -- Can break vital parts of the operating system. Removing an Unsafe package have an extremely high risk of bootlooping your device.
 
-## Bonus method.
+## Bonus method wip.
 
 By using [App Manager](https://github.com/MuntashirAkon/AppManager)
 
