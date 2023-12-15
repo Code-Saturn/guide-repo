@@ -11,7 +11,9 @@ This guide shows you how to uninstall system apps and ultimately debloat android
 >Unfortunately, only android 11+.
 
 
-## Gui methods:
+## TUI methods:
+
+Methods using the command line, less user friendly.
 
 ### Method 1
 
@@ -26,6 +28,21 @@ Using aShell.
 >[!NOTE]
 >Since aShell is adb shell you can just input your commands there on the top bar.
 
+
+## GUI Methods:
+
+Methods using graphical interface, more user friendly.
+
+### Method 1
+
+By using an app called "Package Manager".
+
+#### Steps:
+ 1. Install [shizuku](https://github.com/RikkaApps/Shizuku/releases) and [Package Manager](https://f-droid.org/packages/com.smartpack.packagemanager/).
+ 2. [Configure shizuku](https://shizuku.rikka.app/guide/setup/).
+ 3. Open package manager, it should request shizuku permission so grant that, if you missed dialog, authorize from Shizuku app.
+ 4. Go to system tab, now uninstall the bloatware but only if your sure of what you are doing.
+
 ### Method 2
 
 By using [App Manager](https://github.com/MuntashirAkon/AppManager)
@@ -35,21 +52,6 @@ By using [App Manager](https://github.com/MuntashirAkon/AppManager)
 
 #### Steps:
 Wip
-
-
-## TUI Methods:
-
-Methods using command line.
-
-### Method 1.
-
-By using an app called "Package Manager".
-
-#### Steps:
- 1. Install [shizuku](https://github.com/RikkaApps/Shizuku/releases) and [Package Manager](https://f-droid.org/packages/com.smartpack.packagemanager/).
- 2. [Configure shizuku](https://shizuku.rikka.app/guide/setup/).
- 3. Open package manager, it should request shizuku permission so grant that, if you missed dialog, authorize from Shizuku app.
- 4. Go to system tab, now uninstall the bloatware but only if your sure of what you are doing.
 
 ## How to be sure what to uninstall?
 Search for your packages by package id which you want to uninstall [here](https://github.com/0x192/universal-android-debloater/blob/main/resources/assets/uad_lists.json).
