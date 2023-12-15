@@ -18,16 +18,30 @@ Methods using the command line, less user friendly.
 ### Method 1
 
 Using aShell.
-
 #### Steps:
  1. Install [shizuku](https://github.com/RikkaApps/Shizuku/releases) and [aShell](https://f-droid.org/en/packages/in.sunilpaulmathew.ashell/).
  2. [Configure shizuku](https://shizuku.rikka.app/guide/setup/).
  3. Open aShell once Shizuku is configured.
- 4. Use [this](https://github.com/0x192/universal-android-debloater/wiki/FAQ#what-are-the-adb-commands-used-by-uad) from the [UAD wiki](https://github.com/0x192/universal-android-debloater/wiki) as a guide for the adb commands.
+ 4. You should get a prompt asking for shizuku access, always allow. **If you missed it** go to the shizuku app and tap on `Authorized X apps` then authorize aShell manually.
+ 5. Use [this](https://github.com/0x192/universal-android-debloater/wiki/FAQ#what-are-the-adb-commands-used-by-uad) from the [UAD wiki](https://github.com/0x192/universal-android-debloater/wiki) as a guide for the adb commands. **This should educate you on what command to use as per your need.**
 
 >[!NOTE]
 >Since aShell is adb shell you can just input your commands there on the top bar.
+### Method 2.1.1
 
+Using Termux and Shizuku
+
+#### Steps:
+1. Follow Steps 1 and 2 from Method 1 above.
+2. Install [termux](https://f-droid.org/packages/com.termux/) or [termux monet](https://github.com/HardcodedCat/termux-monet).
+3. Wip
+
+### Method 2.1.2
+
+Using termux and the `android debug tools` package
+
+#### Steps:
+1. Wip
 
 ## GUI Methods:
 
@@ -51,7 +65,12 @@ By using [App Manager](https://github.com/MuntashirAkon/AppManager)
 >Shizuku, nor the UAD wiki is needed for this method.
 
 #### Steps:
-Wip
+1. Install [App Manager](https://github.com/MuntashirAkon/AppManager/releases)
+2. Click 3 dots on top, then go to settings, you will see `mode of operation`, tap that and change it to `wireless debugging`
+3. Then go back to home page, tap 3 dots again, go to debloater
+4. Stuff that are safe to remove are going to be marked `safe to remove`
+5. Always read the info that's written here before uninstalling to know if you are OK with uninstalling it:
+
 
 ## How to be sure what to uninstall?
 Search for your packages by package id which you want to uninstall [here](https://github.com/0x192/universal-android-debloater/blob/main/resources/assets/uad_lists.json).
