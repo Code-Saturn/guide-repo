@@ -11,11 +11,13 @@ This guide shows you how to uninstall system apps and ultimately debloat android
 >Unfortunately, only android 11+.
 
 
-## Primary method.
+## Gui methods:
+
+### Method 1
 
 Using aShell.
 
-### Steps -
+#### Steps:
  1. Install [shizuku](https://github.com/RikkaApps/Shizuku/releases) and [aShell](https://f-droid.org/en/packages/in.sunilpaulmathew.ashell/).
  2. [Configure shizuku](https://shizuku.rikka.app/guide/setup/).
  3. Open aShell once Shizuku is configured.
@@ -24,11 +26,26 @@ Using aShell.
 >[!NOTE]
 >Since aShell is adb shell you can just input your commands there on the top bar.
 
-## Alternate method.
+### Method 2
+
+By using [App Manager](https://github.com/MuntashirAkon/AppManager)
+
+>[!NOTE]
+>Shizuku, nor the UAD wiki is needed for this method.
+
+#### Steps:
+Wip
+
+
+## TUI Methods:
+
+Methods using command line.
+
+### Method 1.
 
 By using an app called "Package Manager".
 
-### Steps -
+#### Steps:
  1. Install [shizuku](https://github.com/RikkaApps/Shizuku/releases) and [Package Manager](https://f-droid.org/packages/com.smartpack.packagemanager/).
  2. [Configure shizuku](https://shizuku.rikka.app/guide/setup/).
  3. Open package manager, it should request shizuku permission so grant that, if you missed dialog, authorize from Shizuku app.
@@ -58,12 +75,4 @@ If `<entry>` is -
 3. **Expert** -- Breaks widespread and/or important functionality, but nothing important to the basic operation of the operating system. Removing an Expert package should not bootloop the device (unless mentioned in the description) but we can't guarantee it 100%.
 4. **Unsafe** -- Can break vital parts of the operating system. Removing an Unsafe package have an extremely high risk of bootlooping your device.
 
-## Bonus method
 
-By using [App Manager](https://github.com/MuntashirAkon/AppManager)
-
->[!NOTE]
->Shizuku, nor the UAD wiki is needed for this method.
-
-
-#### test
