@@ -69,7 +69,8 @@ By using [App Manager](https://github.com/MuntashirAkon/AppManager)
 2. Click 3 dots on top, then go to settings, you will see `mode of operation`, tap that and change it to `wireless debugging`
 3. Then go back to home page, tap 3 dots again, go to debloater
 4. Stuff that are safe to remove are going to be marked `safe to remove`
-5. Always read the info that's written here before uninstalling to know if you are OK with uninstalling it:
+5. Always read the info that's written here before uninstalling to know if you are OK with uninstalling it:![1000103587](https://github.com/rickdtc/debloat-android-without-pc/assets/74096544/9a140bbc-7370-40cf-ad8d-fd7bb64c5c6e)
+
 
 
 ## How to be sure what to uninstall?
