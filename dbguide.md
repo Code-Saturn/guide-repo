@@ -10,6 +10,8 @@ This guide shows you how to uninstall system apps and ultimately debloat android
 >[!NOTE]
 >Unfortunately, only android 11+.
 
+>[!IMPORTANT]
+>Before starting I would advise you have some basic knowledge of stuff.
 
 ## TUI methods:
 
