@@ -5,7 +5,7 @@ flatpak install flathub org.kde.audiotube
 ```
 ## Snap
 You can install the snap package via this command -
-```
+```bash
 sudo snap install audiotube
 ```
 ## Native distro packages 
