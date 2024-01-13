@@ -25,7 +25,8 @@ Using aShell.
  2. [Configure shizuku](https://shizuku.rikka.app/guide/setup/).
  3. Open aShell once Shizuku is configured.
  4. You should get a prompt asking for shizuku access, always allow. **If you missed it** go to the shizuku app and tap on `Authorized X apps` then authorize aShell manually.
- 5. Use [this](https://github.com/0x192/universal-android-debloater/wiki/FAQ#what-are-the-adb-commands-used-by-uad) from the [UAD wiki](https://github.com/0x192/universal-android-debloater/wiki) as a guide for the adb commands. **This should educate you on what command to use as per your need.**
+ 5. Use [this](https://github.com/0x192/universal-android-debloater/wiki/FAQ#what-are-the-adb-commands-used-by-uad) from the [UAD wiki](https://github.com/0x192/universal-android-debloater/wiki) as a guide for the adb commands. **This should educate you on what command to use as per your need**
+ 6. A guide on how to know what is safe to uninstall is given at the bottom of this page
 
 >[!NOTE]
 >Since aShell is adb shell you can just input your commands there on the top bar.
@@ -35,15 +36,31 @@ Using Termux and Shizuku
 
 #### Steps:
 1. Follow Steps 1 and 2 from Method 1 above.
-2. Install [termux](https://f-droid.org/packages/com.termux/) or [termux monet](https://github.com/HardcodedCat/termux-monet).
-3. Wip
+2. Install [termux](https://f-droid.org/packages/com.termux/) or [termux monet](https://github.com/HardcodedCat/termux-monet)
+3. Open shizuku 
+4. Tap on `Use Shizuku in terminal apps` 
+5. Now, the next steps should be written there but I'll just write it in a simple way for ya
+6. To export the required files tap on the `export files` then choose a preferable empty directory you don't plan on storing anything else and isn't a crucial directory for any other system function or app
+7. Now you have 2 files `rish` and `rish_shuzuki.dex` in that selected folder
+8. Now, use a text editor to edit `rish` and replace wherever its written `PKG` with `com.termux`
+9. Open termux, execute the command `termux-setup-storage` and grant it storage permission 
+10. Now navigate to `storage/shared`
+11. You are in your internal storage now.
+12. From there navigate to where you stored your files on step 6
+13. Now execute `./rish` 
+14. You should get a prompt asking for shizuku access, always allow. **If you missed it** go to the shizuku app and tap on `Authorized X apps` then authorize termux manually.
+15. Welcome to ADB shell
+16. Use [this](https://github.com/0x192/universal-android-debloater/wiki/FAQ#what-are-the-adb-commands-used-by-uad) from the [UAD wiki](https://github.com/0x192/universal-android-debloater/wiki) as a guide for the adb commands. **This should educate you on what command to use as per your need.**
+17. A guide on how to know what is safe to uninstall is given at the bottom of this page
+
 
 ### Method 2.1.2
 
 Using termux and the `android debug tools` package
 
 #### Steps:
-1. Wip
+1. Install [termux](https://f-droid.org/packages/com.termux/) or [termux monet](https://github.com/HardcodedCat/termux-monet)
+2. Open termux and execute `pkg install android-debug-tools -y`
 
 ## GUI Methods:
 
@@ -98,5 +115,3 @@ If `<entry>` is -
 2. **Advanced** -- Breaks obscure or minor parts of functionality, or apps that aren't easily enabled/installed through Settings/Google Play. This category is also used for apps that are useful (default keyboard/gallery/launcher/music app.) but that can easily be replaced by a better alternative.
 3. **Expert** -- Breaks widespread and/or important functionality, but nothing important to the basic operation of the operating system. Removing an Expert package should not bootloop the device (unless mentioned in the description) but we can't guarantee it 100%.
 4. **Unsafe** -- Can break vital parts of the operating system. Removing an Unsafe package have an extremely high risk of bootlooping your device.
-
-
