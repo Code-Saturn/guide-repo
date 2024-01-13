@@ -56,11 +56,15 @@ Using Termux and Shizuku
 
 ### Method 2.1.2
 
-Using termux and the `android debug tools` package
+Using termux and the `android tools` package
 
 #### Steps:
 1. Install [termux](https://f-droid.org/packages/com.termux/) or [termux monet](https://github.com/HardcodedCat/termux-monet)
-2. Open termux and execute `pkg install android-debug-tools -y`
+2. Open termux and execute `pkg install android-tools -y`
+3. Go to your developer settings
+4. Scroll down to wireless debugging, enable it
+5. Tap on wireless debugging
+6. WIP
 
 ## GUI Methods:
 
