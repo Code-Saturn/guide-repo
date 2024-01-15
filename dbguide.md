@@ -64,7 +64,11 @@ Using termux and the `android tools` package
 3. Go to your developer settings
 4. Scroll down to wireless debugging, enable it
 5. Tap on wireless debugging
-6. WIP
+6. Tap on `pair device with pairing code`   
+7. You would see `Wi-Fi Pairing code` and `IP Address and port`
+8. wip
+
+
 
 ## GUI Methods:
 
