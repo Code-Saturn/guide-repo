@@ -66,9 +66,13 @@ Using termux and the `android tools` package
 5. Tap on wireless debugging
 6. Tap on `pair device with pairing code`   
 7. You would see `Wi-Fi Pairing code` and `IP Address and port`
-8. wip
-
-
+8. Now go back to termux and execute `adb pair <ip address from the above step>:<port from the above step> <wifi pairing code>`
+9. Go back the wireless debugging settings you will see `device settings` and `ip address and port` as one of the first things being written on the page
+10. Now execute `adb connect <the ip address>:<the port>` and you will connect to your device
+11. Execute `adb shell`
+12. Welcome to ADB shell
+13. Use [this](https://github.com/0x192/universal-android-debloater/wiki/FAQ#what-are-the-adb-commands-used-by-uad) from the [UAD wiki](https://github.com/0x192/universal-android-debloater/wiki) as a guide for the adb commands. **This should educate you on what command to use as per your need.**
+14. A guide on how to know what is safe to uninstall is given at the bottom of this page
 
 ## GUI Methods:
 
